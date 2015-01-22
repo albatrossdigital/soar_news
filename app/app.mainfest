@@ -1,0 +1,17 @@
+; App manifest file
+; See https://groups.drupal.org/open-app-standard/oas#manifest
+
+name = Soar Events
+description = Add a newsroom listing tagged articles
+color = #F68D38
+version = 1.0-alpha1
+author = Albatross Digital
+author_url = http://www.albatrossdigital.com
+screenshots[] = http://appserver.openpublicapp.com/sites/default/files/ideation-screenshot1.jpg
+logo = http://drupal.org/files/images/ideation.jpg
+machine_name = soar_events
+downloadable = soar_events
+dependencies[views] = views 7.x-1.0
+libraries[] = 
+downloadables[soar_events] = http://ftp.drupal.org/files/projects/views-7.x-3.0-alpha1.tar.gz
+package = Built-in Apps
